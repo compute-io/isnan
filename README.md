@@ -24,7 +24,7 @@ var isnan = require( 'compute-isnan' );
 
 #### isnan( arr )
 
-Computes for each `array` element whether an element is `NaN`. The function returns an `array` of equal length to that of the input `array`. Each output `array` element is either `0` or `1`. A value of `1` means that an element is `NaN` and `0` means that an element is __not__ `NaN`.
+Computes for each `array` element whether an element is `NaN`. The function returns an `array` with a length to that of the input `array`. Each output `array` element is either `0` or `1`. A value of `1` means that an element is `NaN` and `0` means that an element is __not__ `NaN`.
 
 ``` javascript
 var out = isnan( [ 5, 'beep', 3, 9, true ] );
